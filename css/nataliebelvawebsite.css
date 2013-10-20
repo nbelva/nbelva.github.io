@@ -1,0 +1,106 @@
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+   width:914px;
+   background-color: #ffffff;
+   margin-left:auto;
+   margin-right:auto;
+}
+
+body {
+    font-size: 22 px;
+    padding: 10px;
+    font-family: helvetica, sans-serif;
+    background: #f2eee9
+}
+
+/*LAYOUT RULES*/
+
+header {
+    background-color: #253842;
+    color: #ffffff;
+    height: 50px;
+}
+
+header h1 {
+    float: left;
+    font-family: helvetica, sans-serif; 
+    font-size: 40px;
+    padding: 10px; /*TRouBLe */
+    font-weight: 500
+}
+
+header nav{
+    float: left;
+    font-family: helvetica, sans-serif; 
+    font-size: 24px;
+    margin-top: 22px;
+    
+}
+
+header a {
+    color: #91a7bd;  
+    text-decoration: none; 
+    margin-right: 16px;
+}
+
+header a:link {}
+header a:visited {}
+header a:hover {
+    color: #ffffff;
+ }
+header a:active {
+    text-decoration: underline; 
+}
+header a:focus {}
+
+
+p {
+    margin-bottom: 20px;
+    font-family: helvetica, sans-serif; 
+    padding:10px;
+    margin-top: 10px;
+    color: #000000
+}
+
+footer p {
+   text-align:left;
+}
+
+footer {
+   padding:10px;
+   width:894px;
+   text-align:left;
+   border-top:solid #ccc 1px;
+}
+
+/*Heading Rules*/
+
+article h2{
+    font-size: 32px; 
+    font-family: helvetica, sans-serif;
+    padding:10px;
+    text-align:left; 
+    color: #54758a   
+}
+
+article h3{
+    color: #253842
+}
+
+article h4{
+    color: #a60239
+}
+
+/*Image Rules*/
+
+img {
+    border: 5px solid #cccccc;
+    padding: 10px;
+    width: 25%;
+}
+
