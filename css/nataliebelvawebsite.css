@@ -1,12 +1,3 @@
-header	{
-	background-image:url(websiteimages/webheader.jpg); 
-	width:960px;
-	height:213px;
-	margin-left: auto;   
-	margin-right: auto; 
-	margin-bottom:30px;
-	}
-
 body {
      background-color: #C6D4E1
      background-repeat: repeat;
@@ -19,6 +10,14 @@ article, aside, figcaption, figure, footer, header, hgroup, nav, section {
      display: block;
 }
 
+header	{
+	background-image:url(websiteimages/webheader.jpg); 
+	width:960px;
+	height:213px;
+	margin-left: auto;   
+	margin-right: auto; 
+	margin-bottom:30px;
+	}
 /*older browsers will understand the code better. */
 
 /*Layout Styles*/
