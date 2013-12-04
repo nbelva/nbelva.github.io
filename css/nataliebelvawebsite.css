@@ -9,7 +9,7 @@ article, aside, figcaption, figure, footer, header, hgroup, nav, section {
      display: block;
 }
 
-header {
+#header {
      width:0px;
      padding:0px;
 }
@@ -24,13 +24,8 @@ margin-right:auto;
 border: solid 10px #44749D;
 }
 
-header {
-     width:0px;
-     padding:0px;
-}
-
 nav {
-width:160px;
+width:145px;
 padding:10px;
 float:left;
 background-color: #44749D;
@@ -63,7 +58,7 @@ font-family:Helvetica, Arial, sans-serif;
 }
 
 h1 {
-margin:15px;
+margin:25px;
 }
 
 h2 {
@@ -99,25 +94,6 @@ color:black;
 
 a:focus {
 color:#BDB8AD;
-}
-
-/* Nav Link List Rules */
-
-nav ul {
-margin:0;
-padding:0;
-}
-
-footer {
-padding:10px 10px 10px;
-width:934px;
-text-align:center;
-color:#666666;
-border-top: solid 3px;
-}
-
-footer p {
-text-align:center;
 }
 
 /*Heading Styles*/
@@ -162,7 +138,7 @@ font-size:22px;
 background-color: #C6D4E1;
 color:#666666;
 border: solid 5px #fff;
-width:130px;
+width:90%;
 display:block;
 text-align:center;
 height:32px;
@@ -177,6 +153,14 @@ color:#44749D;
 
 /* Footer Link List Rules */
 
+footer {
+padding:10px 10px 10px;
+width:934px;
+text-align:center;
+color:#666666;
+border-top: solid 3px;
+}
+
 footer ul {
 margin:0;
 padding:0;
@@ -187,6 +171,10 @@ list-style-type:none;
 display:inline;
 padding:0 15px;
 border-left:solid black 1px;
+}
+
+footer p {
+text-align:center;
 }
 
 .last {
@@ -200,6 +188,12 @@ border-left:none;
 
 /*Image Styles*/
 
+img {
+     border-style:solid;
+     border-color:black;
+     border-width:0px;
+}
+
 figure {
      padding:0px;
      margin:0px;
@@ -209,12 +203,6 @@ figcaption {
      color:black;
      font-style:italic;
      font-size:10px;
-}
-
-img {
-     border-style:solid;
-     border-color:black;
-     border-width:0px;
 }
 
 .left {
@@ -230,5 +218,25 @@ img {
 }
 
 
+/*Media queries*/
+@media screen and (max-width: 600px) {
 
+    nav {
+        width:60%;
+        float:none
+        }
 
+    article {
+        width:40%;
+        margin-left:5%;
+        }
+
+    footer {
+        width:55%;
+        padding-left:10px;
+        }
+
+    h1 { 
+        display: none; 
+        }
+}
